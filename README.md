@@ -10,7 +10,7 @@ Results: After training the model, predictions were made on the test set, and va
 •	Recall: 78.46% - The recall of 78.46% indicates that the model was able to identify approximately 78.46% of actual fraudulent transactions, suggesting room for improvement in capturing more fraudulent cases.
 •	F1-Score: 87.93% - The F1-score of 87.93% balances precision and recall, providing a single metric to assess the model’s performance.
 
-Confusion Matrix: The confusion matrix provides a detailed view of the model’s classification results:
+The confusion matrix provides a detailed view of the model’s classification results:
 •	True Negatives (TN): 26,096 (correctly identified valid transactions)
 •	False Positives (FP): 0 (incorrectly flagged valid transactions as fraudulent)
 •	False Negatives (FN): 14 (missed fraudulent transactions)
